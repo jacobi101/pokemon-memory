@@ -58,7 +58,7 @@
 
 @media (max-width: 1200px) {
     #card-grid-container {
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         padding: 0px;
         justify-items: center; /* Center cards in the grid cells */
@@ -67,6 +67,10 @@
     .card-container, .card-front-container, .card-back-container {
         width: 100px;
         height: 140px;;
+    }
+
+    #card-grid-container {
+        margin-bottom: 50px;
     }
 
   }
