@@ -29,7 +29,7 @@ function PokemonApp() {
 
   useEffect(() => {
     async function initializeGame() {
-      const initialPokemons = await getRandomPokemons(gameData.level + 10);
+      const initialPokemons = await getRandomPokemons(gameData.level + 4);
       setPokemons(initialPokemons);
       setDisplayPokemons(shuffle(initialPokemons));
     }
