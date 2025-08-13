@@ -1,6 +1,5 @@
 import { StrictMode, useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import './index.css';
 import usePokemons from './PokeSelect.jsx';
 import "nes.css/css/nes.min.css";
 import './styles/board.css'
