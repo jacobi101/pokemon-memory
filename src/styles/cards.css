@@ -66,11 +66,16 @@
     }
     .card-container, .card-front-container, .card-back-container {
         width: 100px;
-        height: 140px;;
+        height: 140px;
     }
 
     #card-grid-container {
         margin-bottom: 50px;
+    }
+
+    .card-container.is-flipped {
+        width: 100px;
+        height: 140px;
     }
 
   }
