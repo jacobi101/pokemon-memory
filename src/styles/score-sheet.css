@@ -1,0 +1,97 @@
+#score-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 0 0 5% 0;
+}
+
+#score-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+#message-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 20px;
+}
+
+#game-message {
+    width: 300px; 
+    height: 100px;
+}
+
+#game-title {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#bill {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+@media (max-width: 1200px) {
+    #game-title {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        position: static;
+    }
+    .nes-pokeball {
+        display: none;
+    }
+    #score-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #score-container {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        margin: 10px;
+    }
+    #message-container {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        height: 50px;
+        margin: 10px;
+
+    }
+    .bill {
+        width: 50px;
+        height: 50px;
+    }
+    #game-message {
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
